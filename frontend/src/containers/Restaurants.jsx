@@ -40,7 +40,7 @@ export const Restaurants = () => {
             </MainCoverImageWrapper>
             <RestaurantsContentsList>
             {
-                state.fetchState === REQUEST_STATE.LOADING ?
+                state.fetchState === REQUEST_STATE.LOADING?
                     <Fragment>
                         <Skeleton variant="rect" width={450} height={300}/>
                         <Skeleton variant="rect" width={450} height={300}/>
